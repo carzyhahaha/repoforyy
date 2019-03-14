@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c5c59b5-c4d2-4fb0-b053-b25c5a670f14" name="Default Changelist" comment="" />
+    <list default="true" id="8c5c59b5-c4d2-4fb0-b053-b25c5a670f14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sy/coursechoosing/config/ShiroConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sy/coursechoosing/auth/MyShiroRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sy/coursechoosing/auth/MyShiroRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sy/coursechoosing/constant/PermissionConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sy/coursechoosing/constant/PermissionConst.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,14 +31,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="16" />
-          <entry key="java" value="2355" />
+          <entry key="java" value="2743" />
           <entry key="xml" value="57" />
           <entry key="yml" value="184" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2355" />
+          <entry key="JAVA" value="2743" />
           <entry key="PLAIN_TEXT" value="16" />
           <entry key="XML" value="57" />
           <entry key="YAML" value="184" />
@@ -40,16 +46,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="3" />
-          <entry key="java" value="20" />
+          <entry key="class" value="4" />
+          <entry key="java" value="21" />
           <entry key="xml" value="1" />
           <entry key="yml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="20" />
+          <entry key="CLASS" value="4" />
+          <entry key="JAVA" value="21" />
           <entry key="XML" value="1" />
           <entry key="YAML" value="3" />
         </counts>
@@ -94,19 +100,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sy/coursechoosing/constant/PermissionConst.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="60">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sy/coursechoosing/auth/MyShiroRealm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="769">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sy/coursechoosing/auth/MyShiroRealm.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sy/coursechoosing/config/ShiroConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+            <state relative-caret-position="400">
+              <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,10 +182,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>SimpleAuthorizationInfo</find>
+      <find>simpleAuthorizationInfo</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -186,12 +215,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sy/coursechoosing/dao/RoleDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sy/coursechoosing/entity/auth/Role.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sy/coursechoosing/entity/auth/PermissionDetail.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sy/coursechoosing/constant/PermissionConst.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sy/coursechoosing/entity/auth/Permission.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sy/coursechoosing/entity/auth/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sy/coursechoosing/util/ConstUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sy/coursechoosing/dao/PermissionDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sy/coursechoosing/auth/MyShiroRealm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sy/coursechoosing/constant/PermissionConst.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sy/coursechoosing/config/ShiroConfiguration.java" />
       </list>
     </option>
   </component>
@@ -215,8 +245,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="565" />
-    <option name="y" value="143" />
+    <option name="x" value="774" />
+    <option name="y" value="318" />
     <option name="width" value="1665" />
     <option name="height" value="886" />
   </component>
@@ -266,6 +296,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="coursechoosing" type="462c0819:PsiDirectoryNode" />
               <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coursechoosing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coursechoosing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="coursechoosing" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="coursechoosing" type="b2602c69:ProjectViewProjectNode" />
@@ -395,15 +434,15 @@
       <option name="presentableId" value="Default" />
       <updated>1552466419987</updated>
       <workItem from="1552466422153" duration="5271000" />
-      <workItem from="1552527522147" duration="13944000" />
+      <workItem from="1552527522147" duration="14812000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19215000" />
+    <option name="totallyTimeSpent" value="20083000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="565" y="143" width="1665" height="886" extended-state="0" />
+    <frame x="774" y="318" width="1665" height="886" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1694704" />
@@ -413,7 +452,7 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49968848" visible="true" weight="0.27297667" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49968848" visible="true" weight="0.27335164" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -648,13 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sy/coursechoosing/constant/PermissionConst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sy/coursechoosing/dao/PermissionDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -665,12 +697,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/authz/SimpleAuthorizationInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+          <folding>
+            <element signature="e#547#548#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sy/coursechoosing/constant/PermissionConst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sy/coursechoosing/auth/MyShiroRealm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+        <state relative-caret-position="769">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sy/coursechoosing/config/ShiroConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
           </folding>
         </state>
       </provider>
