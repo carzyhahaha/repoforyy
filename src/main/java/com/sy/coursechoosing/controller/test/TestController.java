@@ -18,16 +18,16 @@ public class TestController {
 
     @GetMapping("method1")
     public String method1() {
-        return "test method1 successful 12";
+        return "test method1 successful 123";
     }
 
 
-    @GetMapping("testInsertDB")
+    @GetMapping("testInsertDB2")
     public String testDB() {
         Test t = new Test();
-        t.setId(1);
-        t.setKey1("hello");
-        t.setKey2("world");
+        t.setId(2);
+        t.setKey1("hello2");
+        t.setKey2("world2");
         t.setCreated(new Date());
         t.setUpdated(new Date());
         testDao.save(t);
